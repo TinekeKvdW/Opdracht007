@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Neem contact met mij op</h1>
+    <p>Door middel van onderstaand formulier kun je contact met mij opnemen. Laat je gegevens veilig achter</p>
+
+    <form name="contact" method="POST" data-netlify="true" action="/action_page.php">
+        <label for="name">Volledige naam:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Emailadres:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="textarea">Bericht</label><br>
+        <textarea rows="10" cols="30"></textarea><br>
+        <input type="submit" value="Indienen">
+        <input type="checkbox" id="vink" name="vink" value="vink">
+        <label for="vink">D.m.v. het aanvinken ga ik akkoord dat mijn naam, emailadres en bericht conform de AVG worden
+            bewaard.</label><br>
+    </form>
+
+    <p>Bedankt voor het achterlaten van uw bericht</p>
+    <a href="index.html">Homepage</a>
+
+</body>
+
+</html>
